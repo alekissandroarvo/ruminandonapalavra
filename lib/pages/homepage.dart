@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ruminandonapalavra/constantes.dart';
+import 'package:ruminandonapalavra/pages/johnowenpage.dart';
+import 'package:ruminandonapalavra/pages/jonathanedwardspage.dart';
+import 'package:ruminandonapalavra/pages/spurgeonpage.dart';
 import 'package:ruminandonapalavra/widgets/alertpix.dart';
 import 'package:ruminandonapalavra/widgets/cardswiper.dart';
 
@@ -49,10 +52,85 @@ class HomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Container(
+                      child: Card(
+                        child: Column(
+                          children: [
+                            Text(
+                              'Links',
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 30,
+                                  fontFamily: 'DancingScript'),
+                            ),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const SpurgeonPage()),
+                                );
+                              },
+                              child: Padding(
+                                padding: EdgeInsets.all(5),
+                                child: Text(
+                                  'C. H. Spurgeon',
+                                  style: TextStyle(
+                                      decoration: TextDecoration.underline,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const JonathanEdwardsPage()),
+                                );
+                              },
+                              child: Padding(
+                                padding: EdgeInsets.all(5),
+                                child: Text(
+                                  'Jonathan Edwards',
+                                  style: TextStyle(
+                                      decoration: TextDecoration.underline,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: () {
+                               Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const JohnOwenPage()),
+                                );
+                              },
+                              child: Padding(
+                                padding: EdgeInsets.all(5),
+                                child: Text(
+                                  'John Owen',
+                                  style: TextStyle(
+                                      decoration: TextDecoration.underline,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Container(
                       width: 250,
                       child: Text(
                         texto_homepage,
-                        style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,color: Colors.white),
+                        style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
                         textAlign: TextAlign.justify,
                       ),
                     ),

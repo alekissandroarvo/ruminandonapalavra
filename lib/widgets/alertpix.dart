@@ -11,11 +11,11 @@ class AlertPix extends StatelessWidget {
         barrierDismissible: false, // user must tap button!
         builder: (BuildContext context) {
           return AlertDialog(
-            title: const Text('Oferta'),
-            content: const SingleChildScrollView(
+            title: const Text('Oferta PIX'),
+            content:  SingleChildScrollView(
               child: ListBody(
                 children: <Widget>[
-                  Text('Imagem do PIX Aqui')
+                  Image.asset('assets/images/mypixoferta.png',height: 500,width: 500,)
                 ],
               ),
             ),
