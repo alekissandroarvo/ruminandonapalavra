@@ -22,14 +22,12 @@ class JonathanEdwardsPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
-              title: Center(
-                child: Text(
-                  'Uma Luz Divina e Sobrenatural',
-                  style: TextStyle(
-                      fontSize: 40,
-                      fontFamily: 'DancingScript',
-                      fontWeight: FontWeight.bold),
-                ),
+              title: Text(
+                'Uma Luz Divina e Sobrenatural',
+                style: TextStyle(
+                    fontSize: 40,
+                    fontFamily: 'DancingScript',
+                    fontWeight: FontWeight.bold),
               ),
             ),
             body: ListView(children: [
@@ -48,6 +46,8 @@ class JonathanEdwardsPage extends StatelessWidget {
                           adivinelightverse,
                           style: TextStyle(
                             fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            fontStyle: FontStyle.italic
                           ),
                           textAlign: TextAlign.justify,
                         ),
@@ -85,15 +85,22 @@ class JonathanEdwardsPage extends StatelessWidget {
           Scaffold(
             backgroundColor: Colors.transparent,
             appBar: AppBar(
+              toolbarHeight: 120,
               backgroundColor: Colors.transparent,
-              title: Center(
-                child: Text(
-                  'Uma Luz Divina e Sobrenatural',
-                  style: TextStyle(
-                      fontSize: 40,
+              title: RichText(
+                text: TextSpan(
+                    text: 'Uma Luz Divina ',
+                    style: TextStyle(
                       fontFamily: 'DancingScript',
-                      fontWeight: FontWeight.bold),
-                ),
+                      fontSize: 30,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(
+                        text: 'e Sobrenatural',
+                        style: TextStyle(
+                            fontFamily: 'DancingScript', fontSize: 30),
+                      )
+                    ]),
               ),
             ),
             body: ListView(children: [
@@ -116,6 +123,8 @@ class JonathanEdwardsPage extends StatelessWidget {
                           adivinelightverse,
                           style: TextStyle(
                             fontSize: 18,
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.bold
                           ),
                           textAlign: TextAlign.justify,
                         ),

@@ -90,6 +90,7 @@ class SpurgeonPage extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'DancingScript',
+                    color: Colors.white,
                     fontWeight: FontWeight.bold),
               ),
             ),
@@ -115,7 +116,7 @@ class SpurgeonPage extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      width: 600,
+                      width: 300,
                       child: Text(
                         SpurgeonPreface2,
                         style: TextStyle(fontSize: 18),

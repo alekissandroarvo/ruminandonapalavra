@@ -22,14 +22,12 @@ class JohnOwenPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
-              title: Center(
-                child: Text(
-                  'A morte da morte na morte de Cristo.',
-                  style: TextStyle(
-                      fontSize: 40,
-                      fontFamily: 'DancingScript',
-                      fontWeight: FontWeight.bold),
-                ),
+              title: Text(
+                'A morte da morte na morte de Cristo.',
+                style: TextStyle(
+                    fontSize: 40,
+                    fontFamily: 'DancingScript',
+                    fontWeight: FontWeight.bold),
               ),
             ),
             body: ListView(children: [
@@ -52,6 +50,9 @@ class JohnOwenPage extends StatelessWidget {
                           textAlign: TextAlign.justify,
                         ),
                       ),
+                      const SizedBox(
+                        height: 20,
+                      )
                     ],
                   ),
                 ],
@@ -75,19 +76,26 @@ class JohnOwenPage extends StatelessWidget {
           Scaffold(
             backgroundColor: Colors.transparent,
             appBar: AppBar(
+              toolbarHeight: 120,
               backgroundColor: Colors.transparent,
-              title: Center(
-                child: Text(
-                  'A morte da morte na morte de Cristo.',
-                  style: TextStyle(
-                      fontSize: 40,
+              title: RichText(
+                text: TextSpan(
+                    text: 'A Morte da Morte ',
+                    style: TextStyle(
                       fontFamily: 'DancingScript',
-                      fontWeight: FontWeight.bold),
-                ),
+                      fontSize: 30,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(
+                        text: 'na Morte de Cristo',
+                        style: TextStyle(
+                            fontFamily: 'DancingScript', fontSize: 30),
+                      )
+                    ]),
               ),
             ),
             body: ListView(children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Column(
@@ -104,7 +112,7 @@ class JohnOwenPage extends StatelessWidget {
                         width: 300,
                         child: Text(
                           amortedamorte,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 18,
                           ),
                           textAlign: TextAlign.justify,
