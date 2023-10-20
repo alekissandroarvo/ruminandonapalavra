@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
                 Container(
                   color: mythemecolor,
                   height: 100,
-                  child: Row(
+                  child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Text(
@@ -39,24 +39,24 @@ class HomePage extends StatelessWidget {
                             color: Colors.white),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: EdgeInsets.all(8.0),
                         child: AlertPix(),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
-                Container(
+                SizedBox(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Container(
+                      SizedBox(
                         child: Card(
                           child: Column(
                             children: [
-                              Text(
+                              const Text(
                                 'Links',
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold,
@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                                             const SpurgeonPage()),
                                   );
                                 },
-                                child: Padding(
+                                child: const Padding(
                                   padding: EdgeInsets.all(5),
                                   child: Text(
                                     'C. H. Spurgeon',
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                                             const JonathanEdwardsPage()),
                                   );
                                 },
-                                child: Padding(
+                                child: const Padding(
                                   padding: EdgeInsets.all(5),
                                   child: Text(
                                     'Jonathan Edwards',
@@ -110,7 +110,7 @@ class HomePage extends StatelessWidget {
                                             const JohnOwenPage()),
                                   );
                                 },
-                                child: Padding(
+                                child: const Padding(
                                   padding: EdgeInsets.all(5),
                                   child: Text(
                                     'John Owen',
@@ -124,11 +124,11 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 250,
                         child: Text(
                           texto_homepage,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),
@@ -136,7 +136,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       Container(
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(12))),
                           width: 300,
@@ -166,7 +166,7 @@ class HomePage extends StatelessWidget {
                 Container(
                   color: mythemecolor,
                   height: 130,
-                  child: Column(
+                  child: const Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Text(
@@ -178,31 +178,31 @@ class HomePage extends StatelessWidget {
                             color: Colors.white),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: EdgeInsets.all(8.0),
                         child: AlertPix(),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
-                Container(
+                SizedBox(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Container(
+                      SizedBox(
                         child: Card(
                           child: Column(
                             children: [
                               Container(
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                       borderRadius: BorderRadius.all(
                                           Radius.circular(12))),
                                   width: 300,
                                   height: 300,
                                   child: SwiperRuminandoPage()),
-                              Text(
+                              const Text(
                                 'Links',
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold,
@@ -218,7 +218,7 @@ class HomePage extends StatelessWidget {
                                             const SpurgeonPage()),
                                   );
                                 },
-                                child: Padding(
+                                child: const Padding(
                                   padding: EdgeInsets.all(5),
                                   child: Text(
                                     'C. H. Spurgeon',
@@ -237,7 +237,7 @@ class HomePage extends StatelessWidget {
                                             const JonathanEdwardsPage()),
                                   );
                                 },
-                                child: Padding(
+                                child: const Padding(
                                   padding: EdgeInsets.all(5),
                                   child: Text(
                                     'Jonathan Edwards',
@@ -256,7 +256,7 @@ class HomePage extends StatelessWidget {
                                             const JohnOwenPage()),
                                   );
                                 },
-                                child: Padding(
+                                child: const Padding(
                                   padding: EdgeInsets.all(5),
                                   child: Text(
                                     'John Owen',
@@ -270,11 +270,11 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 250,
                         child: Text(
                           texto_homepage,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),

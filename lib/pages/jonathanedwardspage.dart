@@ -22,7 +22,7 @@ class JonathanEdwardsPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
-              title: Text(
+              title: const Text(
                 'Uma Luz Divina e Sobrenatural',
                 style: TextStyle(
                     fontSize: 40,
@@ -31,7 +31,7 @@ class JonathanEdwardsPage extends StatelessWidget {
               ),
             ),
             body: ListView(children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Row(
@@ -40,22 +40,22 @@ class JonathanEdwardsPage extends StatelessWidget {
                   Image.asset('assets/images/jonathanedwards.jpg'),
                   Column(
                     children: [
-                      Container(
+                      SizedBox(
                         width: 600,
                         child: Text(
                           adivinelightverse,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                               fontStyle: FontStyle.italic),
                           textAlign: TextAlign.justify,
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 600,
                         child: Text(
                           adivinelight1,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 18,
                           ),
                           textAlign: TextAlign.justify,
@@ -87,7 +87,7 @@ class JonathanEdwardsPage extends StatelessWidget {
               toolbarHeight: 120,
               backgroundColor: Colors.transparent,
               title: RichText(
-                text: TextSpan(
+                text: const TextSpan(
                     text: 'Uma Luz Divina ',
                     style: TextStyle(
                       fontFamily: 'DancingScript',
@@ -107,7 +107,7 @@ class JonathanEdwardsPage extends StatelessWidget {
               ),
             ),
             body: ListView(children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Column(
@@ -120,22 +120,22 @@ class JonathanEdwardsPage extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Container(
+                      SizedBox(
                         width: 300,
                         child: Text(
                           adivinelightverse,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 18,
                               fontStyle: FontStyle.italic,
                               fontWeight: FontWeight.bold),
                           textAlign: TextAlign.justify,
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 300,
                         child: Text(
                           adivinelight1,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 18,
                           ),
                           textAlign: TextAlign.justify,

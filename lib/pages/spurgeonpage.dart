@@ -22,7 +22,7 @@ class SpurgeonPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
-              title: Center(
+              title: const Center(
                 child: Text(
                   'Prefácio',
                   style: TextStyle(
@@ -33,7 +33,7 @@ class SpurgeonPage extends StatelessWidget {
               ),
             ),
             body: ListView(children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Row(
@@ -46,7 +46,7 @@ class SpurgeonPage extends StatelessWidget {
                         width: 600,
                         child: Text(
                           SpurgeonPreface1,
-                          style: TextStyle(
+                          style:const TextStyle(
                             fontSize: 18,
                           ),
                           textAlign: TextAlign.justify,
@@ -56,7 +56,7 @@ class SpurgeonPage extends StatelessWidget {
                         width: 600,
                         child: Text(
                           SpurgeonPreface2,
-                          style: TextStyle(fontSize: 18),
+                          style: const TextStyle(fontSize: 18),
                           textAlign: TextAlign.justify,
                         ),
                       ),
@@ -84,7 +84,7 @@ class SpurgeonPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
-              title: Center(
+              title: const Center(
                 child: Text(
                   'Prefácio',
                   style: TextStyle(
@@ -95,7 +95,7 @@ class SpurgeonPage extends StatelessWidget {
               ),
             ),
             body: ListView(children: [
-              SizedBox(
+             const SizedBox(
                 height: 50,
               ),
               Column(
@@ -114,7 +114,7 @@ class SpurgeonPage extends StatelessWidget {
                         width: 300,
                         child: Text(
                           SpurgeonPreface1,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 18,
                           ),
                           textAlign: TextAlign.justify,
@@ -124,10 +124,11 @@ class SpurgeonPage extends StatelessWidget {
                         width: 300,
                         child: Text(
                           SpurgeonPreface2,
-                          style: TextStyle(fontSize: 18),
+                          style:const  TextStyle(fontSize: 18),
                           textAlign: TextAlign.justify,
                         ),
                       ),
+                     const SizedBox(height: 20,)
                     ],
                   ),
                 ],

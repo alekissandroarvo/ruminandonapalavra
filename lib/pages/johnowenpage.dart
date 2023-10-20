@@ -22,7 +22,7 @@ class JohnOwenPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
-              title: Text(
+              title: const Text(
                 'A morte da morte na morte de Cristo.',
                 style: TextStyle(
                     fontSize: 40,
@@ -31,7 +31,7 @@ class JohnOwenPage extends StatelessWidget {
               ),
             ),
             body: ListView(children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Row(
@@ -40,11 +40,11 @@ class JohnOwenPage extends StatelessWidget {
                   Image.asset('assets/images/johnowen.jpg'),
                   Column(
                     children: [
-                      Container(
+                      SizedBox(
                         width: 600,
                         child: Text(
                           amortedamorte,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 18,
                           ),
                           textAlign: TextAlign.justify,
@@ -79,7 +79,7 @@ class JohnOwenPage extends StatelessWidget {
               toolbarHeight: 120,
               backgroundColor: Colors.transparent,
               title: RichText(
-                text: TextSpan(
+                text: const TextSpan(
                     text: 'A Morte da Morte ',
                     style: TextStyle(
                       fontFamily: 'DancingScript',
@@ -112,7 +112,7 @@ class JohnOwenPage extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Container(
+                      SizedBox(
                         width: 300,
                         child: Text(
                           amortedamorte,
