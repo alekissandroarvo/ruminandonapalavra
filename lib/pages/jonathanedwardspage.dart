@@ -45,10 +45,9 @@ class JonathanEdwardsPage extends StatelessWidget {
                         child: Text(
                           adivinelightverse,
                           style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: FontStyle.italic
-                          ),
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              fontStyle: FontStyle.italic),
                           textAlign: TextAlign.justify,
                         ),
                       ),
@@ -93,12 +92,16 @@ class JonathanEdwardsPage extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'DancingScript',
                       fontSize: 30,
+                      fontWeight: FontWeight.bold,
                     ),
                     children: <TextSpan>[
                       TextSpan(
                         text: 'e Sobrenatural',
                         style: TextStyle(
-                            fontFamily: 'DancingScript', fontSize: 30),
+                          fontFamily: 'DancingScript',
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),
                       )
                     ]),
               ),
@@ -122,10 +125,9 @@ class JonathanEdwardsPage extends StatelessWidget {
                         child: Text(
                           adivinelightverse,
                           style: TextStyle(
-                            fontSize: 18,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.bold
-                          ),
+                              fontSize: 18,
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.bold),
                           textAlign: TextAlign.justify,
                         ),
                       ),

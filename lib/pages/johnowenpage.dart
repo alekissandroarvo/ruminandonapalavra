@@ -84,12 +84,16 @@ class JohnOwenPage extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'DancingScript',
                       fontSize: 30,
+                      fontWeight: FontWeight.bold,
                     ),
                     children: <TextSpan>[
                       TextSpan(
                         text: 'na Morte de Cristo',
                         style: TextStyle(
-                            fontFamily: 'DancingScript', fontSize: 30),
+                          fontFamily: 'DancingScript',
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),
                       )
                     ]),
               ),

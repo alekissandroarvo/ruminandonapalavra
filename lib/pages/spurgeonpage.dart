@@ -68,69 +68,74 @@ class SpurgeonPage extends StatelessWidget {
           ),
         ],
       );
-    } else{
-       return Stack(
-      children: [
-        Opacity(
-          opacity: 0.4,
-          child: Image.asset(
-            'assets/images/tree.jpg',
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height,
-            fit: BoxFit.fill,
+    } else {
+      return Stack(
+        children: [
+          Opacity(
+            opacity: 0.4,
+            child: Image.asset(
+              'assets/images/tree.jpg',
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height,
+              fit: BoxFit.fill,
+            ),
           ),
-        ),
-        Scaffold(
-          backgroundColor: Colors.transparent,
-          appBar: AppBar(
+          Scaffold(
             backgroundColor: Colors.transparent,
-            title: Center(
-              child: Text(
-                'Prefácio',
-                style: TextStyle(
-                    fontSize: 40,
-                    fontFamily: 'DancingScript',
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
+            appBar: AppBar(
+              backgroundColor: Colors.transparent,
+              title: Center(
+                child: Text(
+                  'Prefácio',
+                  style: TextStyle(
+                      fontSize: 40,
+                      fontFamily: 'DancingScript',
+                      fontWeight: FontWeight.bold),
+                ),
               ),
             ),
+            body: ListView(children: [
+              SizedBox(
+                height: 50,
+              ),
+              Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    'assets/images/spurgeon.jpg',
+                    width: 300,
+                    height: 300,
+                  ),
+                  Column(
+                    children: [
+                      Container(
+                        width: 300,
+                        child: Text(
+                          SpurgeonPreface1,
+                          style: TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      Container(
+                        width: 300,
+                        child: Text(
+                          SpurgeonPreface2,
+                          style: TextStyle(fontSize: 18),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ]),
           ),
-          body: ListView(children: [
-            SizedBox(
-              height: 50,
-            ),
-            Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset('assets/images/spurgeon.jpg',width: 300,height: 300,),
-                Column(
-                  children: [
-                    Container(
-                      width: 300,
-                      child: Text(
-                        SpurgeonPreface1,
-                        style: TextStyle(fontSize: 18,),
-                        textAlign: TextAlign.justify,
-                      ),
-                    ),
-                    Container(
-                      width: 300,
-                      child: Text(
-                        SpurgeonPreface2,
-                        style: TextStyle(fontSize: 18),
-                        textAlign: TextAlign.justify,
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ]),
-        ),
-      ],
-    );
+        ],
+      );
     }
   }
 }
