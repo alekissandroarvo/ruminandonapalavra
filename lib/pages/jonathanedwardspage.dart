@@ -61,6 +61,89 @@ class JonathanEdwardsPage extends StatelessWidget {
                           textAlign: TextAlign.justify,
                         ),
                       ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight2,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight3,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight4,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight5,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight6,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight7,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight8,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 600,
+                        child: Text(
+                          adivinelight9,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      )
                     ],
                   ),
                 ],
@@ -141,6 +224,89 @@ class JonathanEdwardsPage extends StatelessWidget {
                           textAlign: TextAlign.justify,
                         ),
                       ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight2,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight3,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight4,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight5,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight6,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight7,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight8,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        child: Text(
+                          adivinelight9,
+                          style: const TextStyle(
+                            fontSize: 18,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      )
                     ],
                   ),
                 ],
